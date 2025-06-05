@@ -34,7 +34,7 @@
 
     </div>
 
-    <section class="contenedor container">
+    <section class="contenedor">
         <h2 class="text-center">Categorias de Productos</h2>
 
         <div class="categoria">
@@ -76,7 +76,7 @@
         <div class="contenedor nuestros-productos">
 
             <div class="producto">
-                <div>
+                <div class="producto__img">
                     <img src="/img/producto1.jpg" alt="Producto 1">
                 </div>
                 <div class="producto__info">
@@ -89,7 +89,9 @@
             </div>
 
             <div class="producto">
-                <img src="/img/producto2.jpg" alt="Producto 2">
+                <div class="producto__img">
+                    <img src="/img/producto2.jpg" alt="Producto 2">
+                </div>
                 <div class="producto__info">
                     <h3 class="producto__titulo">Producto 2</h3>
                     <p class="producto__texto">Pellentesque dolor lectus, consectetur et fringilla in, consectetur vel mauris.
@@ -100,7 +102,9 @@
             </div>
 
             <div class="producto">
-                <img src="/img/producto3.jpg" alt="Producto 3">
+                <div class="producto__img">
+                    <img src="/img/producto3.jpg" alt="Producto 3">
+                </div>
                 <div class="producto__info">
                     <h3 class="producto__titulo">Producto 3</h3>
                     <p class="producto__texto">Pellentesque dolor lectus, consectetur et fringilla in, consectetur vel mauris.
@@ -111,7 +115,9 @@
             </div>
 
             <div class="producto">
-                <img src="/img/producto4.jpg" alt="Producto 4">
+                <div class="producto__img">
+                    <img src="/img/producto4.jpg" alt="Producto 4">
+                </div>
                 <div class="producto__info">
                     <h3 class="producto__titulo">Producto 4</h3>
                     <p class="producto__texto">Pellentesque dolor lectus, consectetur et fringilla in, consectetur vel mauris.
@@ -122,7 +128,9 @@
             </div>
 
             <div class="producto">
-                <img src="/img/producto5.jpg" alt="Producto 5">
+                <div class="producto__img">
+                    <img src="/img/producto5.jpg" alt="Producto 5">
+                </div>
                 <div class="producto__info">
                     <h3 class="producto__titulo">Producto 5</h3>
                     <p class="producto__texto">Pellentesque dolor lectus, consectetur et fringilla in, consectetur vel mauris.
@@ -133,7 +141,9 @@
             </div>
 
             <div class="producto">
-                <img src="/img/producto6.jpg" alt="Producto 6">
+                <div class="producto__img">
+                    <img src="/img/producto6.jpg" alt="Producto 6">
+                </div>
                 <div class="producto__info">
                     <h3 class="producto__titulo">Producto 6</h3>
                     <p class="producto__texto">Pellentesque dolor lectus, consectetur et fringilla in, consectetur vel mauris.
@@ -146,38 +156,40 @@
 
     </main>
 
-    <footer>
+    <footer class="footer-line">
 
-        <div class="seccion">
-            <h2>Categorias</h2>
-            <nav>
-                <a href="#">Cocina</a>
-                <a href="#">Oficina</a>
-                <a href="#">Jardin</a>
-                <a href="#">Cochera</a>
-                <a href="#">Dormitorios</a>
-            </nav>
-        </div>
-        <div class="seccion">
-            <h2>Sobre Nosotros</h2>
-            <nav>
-                <a href="#">Nuestra Historia</a>
-                <a href="#">Mision, Vision y Valores</a>
-                <a href="#">Carreras</a>
-                <a href="#">Politica de Privacidad</a>
-                <a href="#">Terminos del Servicio</a>
-            </nav>
-        </div>
-        <div class="seccion">
-            <h2>Soporte</h2>
-            <nav>
-                <a href="#">Preguntas Frecuentes</a>
-                <a href="#">Ayuda en Linea</a>
-                <a href="#">Confianza y Seguridad</a>
-            </nav>
+        <div class="footer-grid contenedor">
+            <div class="seccion">
+                <h2>Categorias</h2>
+                <nav class="navegacion-footer">
+                    <a href="#">Cocina</a>
+                    <a href="#">Oficina</a>
+                    <a href="#">Jardin</a>
+                    <a href="#">Cochera</a>
+                    <a href="#">Dormitorios</a>
+                </nav>
+            </div>
+            <div class="seccion">
+                <h2>Sobre Nosotros</h2>
+                <nav class="navegacion-footer">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Mision, Vision y Valores</a>
+                    <a href="#">Carreras</a>
+                    <a href="#">Politica de Privacidad</a>
+                    <a href="#">Terminos del Servicio</a>
+                </nav>
+            </div>
+            <div class="seccion">
+                <h2>Soporte</h2>
+                <nav class="navegacion-footer">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en Linea</a>
+                    <a href="#">Confianza y Seguridad</a>
+                </nav>
+            </div>
         </div>
 
-        <p>Todos los derechos Reservados. TiendaMuebles</p>
+        <p class="text-center">Todos los derechos Reservados. TiendaMuebles</p>
     </footer>
 </body>
 </html>
