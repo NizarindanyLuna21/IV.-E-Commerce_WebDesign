@@ -54,6 +54,9 @@ img {
 .lighter {
     font-weight: lighter;
 }
+.pointer {
+    cursor: pointer;
+}
 
 /* Navegacion */
 .header-span {
@@ -275,5 +278,21 @@ img {
     font-weight: 700;
 }
 
+/* Nosotros.html */
+.line {
+    border-top: 1px solid var(--gris);
+    padding-top: 1rem;
+    margin-top: 0;
+}
 
-
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax( 30rem, 1fr));
+    column-gap: 4rem;
+}
+.nosotros__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
