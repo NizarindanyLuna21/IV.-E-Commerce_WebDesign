@@ -370,7 +370,35 @@ img {
     margin: 0 auto;
 }
 
+/* galeria */
+.titulo {
+    text-align: center;
+}
+.galeria {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.galeria img {
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+}
 
+@media (min-width: 768px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .galeria img {
+        width: 40rem;
+        height: 30rem;
+        object-fit: cover;
+    }
+}
 
 
 
